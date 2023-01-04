@@ -101,3 +101,26 @@ img{
     
     
 }
+
+
+
+@media (max-width:470px){
+    div{
+    display:flex;
+    flex-wrap: wrap;
+        width: 500px;
+        height: 50px;
+        
+        
+    
+    }
+}
+
+.libros{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+html{
+    overflow-x: hidden;
+}
