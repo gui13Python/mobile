@@ -75,7 +75,7 @@ img {
 .libros div {
   display: inline-block;
   width: 200px;
-  height: 300px;
+  height: auto;
   flex-wrap: wrap;
   text-align: center;
   border: 1px solid rgb(189, 189, 207);
@@ -83,7 +83,7 @@ img {
   margin-left: 10px;
   padding-left: 10px;
   padding-bottom: 1%;
-  margin-top: 5px;
+  margin-top: 1%;
 }
 
 @media (max-width: 470px) {
@@ -94,6 +94,7 @@ img {
     height: auto;
     align-items: center;
     justify-content: center;
+    padding-bottom: auto;
   }
 }
 
