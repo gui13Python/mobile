@@ -33,8 +33,6 @@ a {
   align-items: center;
   justify-content: left;
   background-color: white;
-
-  color: rgb(247, 9, 207);
 }
 
 .nave {
@@ -60,6 +58,19 @@ img {
   justify-content: center;
   background-color: white;
   float: center;
+}
+
+@media (max-width: 470px) {
+  .bta1 {
+    display: flex;
+    background-color: rgb(225, 238, 237);
+    color: rgb(53, 145, 250);
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    float: center;
+    margin-bottom: 10%;
+  }
 }
 
 #p1 {
@@ -94,7 +105,9 @@ img {
     height: auto;
     align-items: center;
     justify-content: center;
-    padding-bottom: auto;
+    padding-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5%;
   }
 }
 
